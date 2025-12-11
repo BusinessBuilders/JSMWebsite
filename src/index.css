@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Shield badge shine animation - subtle tilt */
+@keyframes badgeShine {
+  0%, 100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  25% {
+    transform: perspective(400px) rotateY(-25deg);
+  }
+  75% {
+    transform: perspective(400px) rotateY(25deg);
+  }
+}
+
+.animate-badge-flip {
+  animation: badgeShine 4s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
