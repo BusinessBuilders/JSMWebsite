@@ -188,15 +188,25 @@ const Contact = () => {
         recaptchaToken: token
       };
 
-      // TODO: POST to /api/contact endpoint
-      console.log('Form data:', submissionData);
+      // POST to backend API
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+      const response = await fetch(`${apiUrl}/api/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(submissionData),
+      });
 
-      // Simulate API call for now
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit form');
+      }
 
       setStatus({
         type: 'success',
-        message: 'Thank you for your message! We will get back to you soon.'
+        message: data.message || 'Thank you for your message! We will get back to you soon.'
       });
 
       // Reset form
@@ -213,7 +223,7 @@ const Contact = () => {
       console.error('Form submission error:', error);
       setStatus({
         type: 'error',
-        message: 'Something went wrong. Please try again later.'
+        message: error instanceof Error ? error.message : 'Something went wrong. Please try again later.'
       });
     } finally {
       setIsSubmitting(false);
