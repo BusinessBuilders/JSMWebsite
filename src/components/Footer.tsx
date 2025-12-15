@@ -175,7 +175,7 @@ const Footer = () => {
               JSM Compliance is committed to providing expert compliance solutions.
               All trademarks, logos, and brand names are the property of their respective owners.
               Professional services are subject to terms and conditions.
-              Website designed by Business Builder Inc.
+              Website designed by <a href="https://business-builder.online" target="_blank" rel="noopener noreferrer" className="text-[#4CAF50] hover:text-[#45a049] transition-colors">Business Builder</a>.
             </p>
           </div>
         </div>
