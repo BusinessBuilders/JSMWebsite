@@ -1,9 +1,19 @@
 import { Link } from 'react-router-dom'
+import jsmShield from '../assets/jsm-shield.png'
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#212121] to-[#1a1a1a] px-4 sm:px-6 lg:px-8 py-16">
       <div className="max-w-6xl mx-auto text-center">
+        {/* Shield Logo */}
+        <div className="mb-8">
+          <img
+            src={jsmShield}
+            alt="JSM Compliance Shield"
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto animate-badge-flip"
+          />
+        </div>
+
         {/* Headline */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
           Compliance You Need. Experience You Can Trust.

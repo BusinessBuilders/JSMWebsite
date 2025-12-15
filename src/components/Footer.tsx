@@ -78,21 +78,21 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="hover:text-gray-300 transition-colors">
                 <span className="font-semibold text-white block mb-1">Email:</span>
-                <a href="mailto:info@jsmcompliance.com" className="hover:text-[#4CAF50] transition-colors">
-                  info@jsmcompliance.com
+                <a href="mailto:jennifer@jsmcompliance.com" className="hover:text-[#4CAF50] transition-colors">
+                  jennifer@jsmcompliance.com
                 </a>
               </li>
               <li className="hover:text-gray-300 transition-colors">
                 <span className="font-semibold text-white block mb-1">Phone:</span>
-                <a href="tel:+15551234567" className="hover:text-[#4CAF50] transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+19788753410" className="hover:text-[#4CAF50] transition-colors">
+                  978-875-3410
                 </a>
               </li>
               <li className="hover:text-gray-300 transition-colors">
                 <span className="font-semibold text-white block mb-1">Address:</span>
                 <address className="not-italic">
-                  123 Compliance Street<br />
-                  Business District, NY 10001
+                  7 Sky Farm Ln<br />
+                  Sterling, MA 01564
                 </address>
               </li>
             </ul>
@@ -117,7 +117,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mb-8">
           <a
-            href="https://www.linkedin.com/company/jsm-compliance"
+            href="https://www.linkedin.com/in/jenniferhuttonscalise/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#6B2D8F] hover:text-[#4CAF50] transition-all duration-300 text-3xl transform hover:scale-110 hover:shadow-lg"
@@ -175,6 +175,7 @@ const Footer = () => {
               JSM Compliance is committed to providing expert compliance solutions.
               All trademarks, logos, and brand names are the property of their respective owners.
               Professional services are subject to terms and conditions.
+              Website designed by <a href="https://business-builder.online" target="_blank" rel="noopener noreferrer" className="text-[#4CAF50] hover:text-[#45a049] transition-colors">Business Builder</a>.
             </p>
           </div>
         </div>
