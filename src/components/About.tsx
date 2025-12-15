@@ -1,4 +1,5 @@
 import { CurrencyDollarIcon, ClockIcon, StarIcon } from '@heroicons/react/24/outline'
+import jenniferPhoto from '../assets/jennifer.jpg'
 
 const About = () => {
   const differentiators = [
@@ -74,6 +75,46 @@ const About = () => {
 
             {/* Right Side - Stats/Features Grid */}
             <div className="space-y-6">
+              {/* Jennifer's Profile */}
+              <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#6B2D8F]/30 hover:border-[#6B2D8F] transition-all duration-300">
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-[#4CAF50] mb-4">
+                    <img
+                      src={jenniferPhoto}
+                      alt="Jennifer Scalise-Mullett"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h4 className="text-xl font-bold text-white mb-2">Jennifer Scalise-Mullett</h4>
+                  <p className="text-[#4CAF50] text-sm font-semibold mb-4">Founder & CEO</p>
+
+                  <div className="text-left space-y-3">
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Jennifer Scalise-Mullett is the Founder and CEO of JSM Compliance Consulting LLC, a boutique consulting firm focused on helping healthcare and life sciences organizations achieve and sustain compliance excellence. With more than two decades of experience in corporate compliance, privacy, and risk management, Jennifer brings deep expertise in designing and implementing tailored compliance programs aligned with complex regulatory requirements.
+                    </p>
+
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Throughout her career, Jennifer has led compliance strategies for global pharmaceutical, biotech, and healthcare organizations, including Boston Pharmaceuticals, Innoviva Specialty Therapeutics, McKesson Corporation, Biogen Idec, Fresenius Medical Care, and Orion Health. She has built compliance programs from the ground up, managed complex and high-profile investigations, and advised executive leadership on mitigating risk and fostering a culture of integrity.
+                    </p>
+
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      At JSM Compliance Consulting, Jennifer applies her extensive industry experience to deliver practical, scalable compliance solutions. Her approach combines strategic insight with hands-on execution, enabling organizations to navigate regulatory challenges with confidence while supporting sustainable business growth.
+                    </p>
+
+                    <div className="mt-4">
+                      <h5 className="text-[#4CAF50] font-semibold text-sm mb-2">Areas of Expertise</h5>
+                      <ul className="text-gray-300 text-xs space-y-1">
+                        <li>• Healthcare & Life Sciences Compliance</li>
+                        <li>• Enterprise Risk Management</li>
+                        <li>• Investigations & Audits</li>
+                        <li>• Regulatory Affairs & Transparency Reporting</li>
+                        <li>• Compliance Program Development & Training</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#6B2D8F]/30 hover:border-[#6B2D8F] transition-all duration-300">
                 <div className="text-[#4CAF50] text-4xl font-bold mb-2">500+</div>
                 <div className="text-gray-400 text-sm">Successful Projects Completed</div>

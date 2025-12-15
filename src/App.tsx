@@ -50,16 +50,6 @@ const Home = () => (
 )
 const ServicesPage = () => (
   <>
-    <div className="pt-20 pb-12 bg-jsm-darker">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
-          Our Services
-        </h1>
-        <p className="text-xl text-gray-300 text-center max-w-3xl mx-auto">
-          Comprehensive pharmaceutical compliance solutions tailored to your needs
-        </p>
-      </div>
-    </div>
     <Services />
   </>
 )
