@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa'
-import jsmLogo from '../assets/jsm.jpg'
 
 const Footer = () => {
   return (
