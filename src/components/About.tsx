@@ -5,19 +5,19 @@ const About = () => {
   const differentiators = [
     {
       title: "Affordable",
-      description: "Law firms often charge $600–$1,200/hour for compliance-related work. Our model offers senior-level expertise at a fraction of the cost, with greater operational insight and hands-on execution.",
+      description: "Affordable Expertise Without the Law Firm Price Tag\n\nWhy pay over $1,000 per hour for compliance work at big law firms when you can access senior-level expertise for a fraction of the cost? At JSM Compliance Consulting, we combine deep regulatory knowledge with hands-on operational insight—delivering practical solutions, not just advice. Our boutique model means no bloated overhead, no unnecessary fees—just results that move your business forward.",
       icon: CurrencyDollarIcon,
       color: "#6B2D8F" // Purple
     },
     {
       title: "Flexible",
-      description: "No overhead, benefits, or long-term commitment. Ideal for companies in clinical or pre-commercial stages that need scalable support.",
+      description: "Flexible Support Without the Strings Attached\n\nNo overhead. No benefits. No long-term commitment. Perfect for companies that need compliance expertise on demand—whether you're a startup building your first program, a high-growth organization preparing for due diligence, or a business scaling toward commercialization. Our model adapts to your needs, providing fractional leadership and targeted support that grows with you.",
       icon: ClockIcon,
       color: "#4CAF50" // Green
     },
     {
       title: "Specialized",
-      description: "Unlike large compliance vendors, we offer tailored, high-touch service from a professional who has sat in the seat of a compliance leader. Deep understanding of biotech culture, timelines, and regulatory nuance.",
+      description: "Specialized Compliance Expertise—Tailored for Your Needs\n\nUnlike large compliance vendors, we deliver high-touch, customized solutions from a seasoned professional who has sat in the compliance leader's seat. Our experience spans the full spectrum of healthcare compliance—from life sciences and pharmaceutical manufacturing to healthcare technology, digital health, and Medicare Advantage plans.\n\nWe understand the realities of tight timelines, regulatory complexity, and operational pressure—whether you're a startup building your first compliance program, a company preparing for due diligence, or an established organization scaling for growth. Our deep knowledge of industry culture and regulatory nuance means we don't just advise—we help you execute with confidence and precision.",
       icon: StarIcon,
       color: "#6B2D8F" // Purple
     }
@@ -35,17 +35,46 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Side - Text Content */}
             <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-white mb-4">JSM Compliance Consulting: Your Compliance Advantage</h3>
+
               <p className="text-gray-300 leading-relaxed text-lg">
-                JSM Compliance Consulting is a boutique consulting firm founded by a seasoned healthcare compliance executive with over 20 years of experience in the life sciences industry. We provide fractional compliance leadership, targeted regulatory support, and strategic compliance planning to biotech and pharmaceutical companies navigating the complex regulatory landscape. Our mission is to deliver agile, expert-driven compliance solutions that empower life sciences companies to navigate regulatory complexity with confidence, integrity, and efficiency.
+                Why pay over $1,000 per hour to big law firms for compliance advice when you can get senior-level expertise at a fraction of the cost? At JSM Compliance Consulting, we deliver real-world solutions—not just theory—designed to keep your business moving forward. Our boutique model means no bloated overhead, no unnecessary fees, and no long-term commitments. Just expert guidance, hands-on execution, and measurable results.
               </p>
 
               <p className="text-gray-300 leading-relaxed text-lg">
-                Unlike large consulting firms or law firms that charge premium rates, we offer senior-level expertise with greater operational insight and hands-on execution at a fraction of the cost. Our boutique model provides the flexibility that growing life sciences companies need—no overhead, no benefits, and no long-term commitment. We understand the unique challenges faced by clinical-stage biotech companies, venture-backed startups, and emerging medtech firms, having sat in the seat of a compliance leader and experienced firsthand the pressure of regulatory timelines, inspection readiness, and resource constraints.
+                Founded by a seasoned healthcare compliance executive with over 20 years of experience, we specialize in helping life sciences companies, healthcare tech innovators, and Medicare Advantage plan sponsors navigate the toughest regulatory challenges with confidence and agility.
               </p>
 
-              <p className="text-gray-300 leading-relaxed text-lg">
-                From GxP compliance and clinical trial oversight to FDA/EMA inspection preparation and M&A due diligence, JSM Compliance Consulting delivers tailored, high-touch service that transforms regulatory challenges into strategic advantages. We bring deep understanding of biotech culture, regulatory nuance, and the practical realities of building compliant operations in fast-paced, resource-conscious environments. Whether you need fractional compliance leadership, targeted project support, or comprehensive compliance infrastructure development, we provide the expertise and flexibility to help you succeed.
-              </p>
+              <div className="mt-8">
+                <h3 className="text-xl font-semibold text-[#4CAF50] mb-4">Why Choose JSM Compliance Consulting?</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
+                    <span className="text-gray-300 leading-relaxed">
+                      <strong className="text-white">Affordable Expertise:</strong> Senior-level compliance leadership without the law firm price tag.
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
+                    <span className="text-gray-300 leading-relaxed">
+                      <strong className="text-white">Hands-On Execution:</strong> We don't just advise—we roll up our sleeves and get it done.
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
+                    <span className="text-gray-300 leading-relaxed">
+                      <strong className="text-white">Agility & Flexibility:</strong> No overhead, no benefits, no long-term contracts. Just results.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-8">
+                <h3 className="text-xl font-semibold text-[#4CAF50] mb-4">What We Deliver</h3>
+                <p className="text-gray-300 leading-relaxed text-lg">
+                  From GxP compliance and clinical trial oversight to FDA/EMA inspection readiness, Medicare Advantage audits, privacy and security risk management, and M&A due diligence, we turn compliance from a burden into a strategic advantage.
+                </p>
+              </div>
 
               {/* Key Services Highlight */}
               <div className="mt-8 space-y-4">
@@ -54,13 +83,19 @@ const About = () => {
                   <li className="flex items-start">
                     <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
                     <span className="text-gray-300 leading-relaxed">
-                      <strong className="text-white">Fractional Compliance:</strong> Acting Head of Compliance, board and executive reporting, policy and SOP development, inspection readiness and mock audits
+                      <strong className="text-white">Fractional Compliance Leadership:</strong> Acting Head of Compliance, board and executive reporting, policy and SOP development, inspection readiness and mock audits
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
                     <span className="text-gray-300 leading-relaxed">
-                      <strong className="text-white">Targeted Compliance:</strong> GxP compliance (GCP, GMP, GLP), clinical trial oversight and monitoring, vendor qualification and due diligence, CAPA and deviation management
+                      <strong className="text-white">Targeted Compliance Solutions:</strong> GxP compliance (GCP, GMP, GLP), clinical trial oversight and monitoring, vendor qualification and due diligence, CAPA and deviation management, compliance issue management and investigations, Medicare Advantage program compliance
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
+                    <span className="text-gray-300 leading-relaxed">
+                      <strong className="text-white">Privacy & Security Expertise:</strong> HIPAA compliance, data privacy assessments, cybersecurity risk management, incident response planning, technology vendor risk reviews
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -70,6 +105,15 @@ const About = () => {
                     </span>
                   </li>
                 </ul>
+              </div>
+
+              <div className="mt-8">
+                <p className="text-gray-300 leading-relaxed text-lg font-semibold">
+                  Ready to stop overpaying for compliance and start getting results?
+                </p>
+                <p className="text-gray-300 leading-relaxed text-lg">
+                  Let's talk about how JSM Compliance Consulting can help you stay compliant, reduce risk, and accelerate growth—without breaking the bank.
+                </p>
               </div>
             </div>
 
@@ -113,21 +157,6 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#6B2D8F]/30 hover:border-[#6B2D8F] transition-all duration-300">
-                <div className="text-[#4CAF50] text-4xl font-bold mb-2">500+</div>
-                <div className="text-gray-400 text-sm">Successful Projects Completed</div>
-              </div>
-
-              <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#4CAF50]/30 hover:border-[#4CAF50] transition-all duration-300">
-                <div className="text-[#6B2D8F] text-4xl font-bold mb-2">100%</div>
-                <div className="text-gray-400 text-sm">Regulatory Inspection Success Rate</div>
-              </div>
-
-              <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#6B2D8F]/30 hover:border-[#6B2D8F] transition-all duration-300">
-                <div className="text-[#4CAF50] text-4xl font-bold mb-2">50+</div>
-                <div className="text-gray-400 text-sm">Countries with Client Presence</div>
               </div>
 
               <div className="bg-[#1a1a1a] p-6 rounded-lg border-2 border-[#4CAF50]/30 hover:border-[#4CAF50] transition-all duration-300">
