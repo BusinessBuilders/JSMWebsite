@@ -200,9 +200,11 @@ const About = () => {
                   <h4 className="text-2xl font-bold text-white mb-4">{item.title}</h4>
 
                   {/* Description */}
-                  <p className="text-gray-300 leading-relaxed">
-                    {item.description}
-                  </p>
+                  <div className="text-gray-300 leading-relaxed space-y-4">
+                    {item.description.split('\n\n').map((paragraph, idx) => (
+                      <p key={idx}>{paragraph}</p>
+                    ))}
+                  </div>
                 </div>
               )
             })}
