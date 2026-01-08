@@ -59,14 +59,6 @@ const Header = () => {
             >
               Services
             </Link>
-            <Link
-              to="/contact"
-              className="text-white hover:text-[#6B2D8F] transition-colors duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-[#6B2D8F] rounded px-2 py-1"
-              aria-label="Navigate to Contact page"
-            >
-              Contact
-            </Link>
-
             {/* Contact Us CTA Button */}
             <Link
               to="/contact"
@@ -137,15 +129,6 @@ const Header = () => {
               aria-label="Navigate to Services page"
             >
               Services
-            </Link>
-            <Link
-              to="/contact"
-              onClick={closeMobileMenu}
-              className="block text-white hover:text-[#6B2D8F] hover:bg-[#2a2a2a] px-4 py-2 rounded transition-all duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-[#6B2D8F]"
-              role="menuitem"
-              aria-label="Navigate to Contact page"
-            >
-              Contact
             </Link>
             <Link
               to="/contact"

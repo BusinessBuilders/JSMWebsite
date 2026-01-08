@@ -35,7 +35,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Side - Text Content */}
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-white mb-4">JSM Compliance Consulting: Your Compliance Advantage</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Your Compliance Advantage</h3>
 
               <p className="text-gray-300 leading-relaxed text-lg">
                 Why pay over $1,000 per hour to big law firms for compliance advice when you can get senior-level expertise at a fraction of the cost? At JSM Compliance Consulting, we deliver real-world solutions—not just theory—designed to keep your business moving forward. Our boutique model means no bloated overhead, no unnecessary fees, and no long-term commitments. Just expert guidance, hands-on execution, and measurable results.
@@ -51,19 +51,19 @@ const About = () => {
                   <li className="flex items-start">
                     <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
                     <span className="text-gray-300 leading-relaxed">
-                      <strong className="text-white">Affordable Expertise:</strong> Senior-level compliance leadership without the law firm price tag.
+                      <strong className="text-white">Affordable Expertise</strong>
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
                     <span className="text-gray-300 leading-relaxed">
-                      <strong className="text-white">Hands-On Execution:</strong> We don't just advise—we roll up our sleeves and get it done.
+                      <strong className="text-white">Hands-On Execution</strong>
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#4CAF50] mr-3 text-xl">✓</span>
                     <span className="text-gray-300 leading-relaxed">
-                      <strong className="text-white">Agility & Flexibility:</strong> No overhead, no benefits, no long-term contracts. Just results.
+                      <strong className="text-white">Agility & Flexibility</strong>
                     </span>
                   </li>
                 </ul>

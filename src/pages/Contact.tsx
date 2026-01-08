@@ -238,7 +238,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Get in touch with our team to discuss your compliance needs
+            Contact us today
           </p>
         </div>
 

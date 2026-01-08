@@ -67,7 +67,7 @@ const Services = () => {
     <section className="bg-[#1a1a1a] py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">Our Services: Compliance Expertise That Works for You</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Compliance Expertise That Works for You</h2>
           <div className="max-w-4xl mx-auto space-y-4">
             <p className="text-gray-300 leading-relaxed text-lg">
               At JSM Compliance Consulting, we deliver senior-level compliance leadership and hands-on execution—without the law firm price tag. Our boutique model means no overhead, no benefits, and no long-term commitment. Just flexible, scalable solutions designed to meet your unique needs.
@@ -100,8 +100,9 @@ const Services = () => {
               </ul>
             </div>
 
-            <div className="mt-8">
-              <h3 className="text-2xl font-semibold text-[#4CAF50] mb-4">Core Services</h3>
+            {/* Visual Separator */}
+            <div className="mt-16 mb-8">
+              <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
             </div>
           </div>
         </div>
